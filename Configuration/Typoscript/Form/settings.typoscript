@@ -1,0 +1,10 @@
+module.tx_form.settings.yamlConfigurations {
+    1499086547 = EXT:csvfinisher/Configuration/Form/BaseSetup.yaml
+    1499086867 = EXT:csvfinisher/Configuration/Form/FormEditorSetup.yaml
+    1499088215 = EXT:csvfinisher/Configuration/Form/FormEngineSetup.yaml
+}
+
+plugin.tx_form.settings.yamlConfigurations {
+    1499086547 = EXT:csvfinisher/Configuration/Form/BaseSetup.yaml
+    1499088215 = EXT:csvfinisher/Configuration/Form/FormEngineSetup.yaml
+}

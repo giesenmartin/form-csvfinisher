@@ -1,0 +1,29 @@
+{
+    "name": "netzweber/csvfinisher",
+    "type": "typo3-cms-extension",
+    "description": "Finisher fuer Formextension. Speichert Formulardaten in einer CSV-Datei und senden diese per Mail. ",
+    "authors": [
+        {
+            "name": "Martin Giesen",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netzweber\\Csvfinisher\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Netzweber\\Csvfinisher\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "csvfinisher": "self.version",
+        "typo3-ter/csvfinisher": "self.version"
+    }
+}

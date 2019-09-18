@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Finisher f\u00fcr Formextension. Speichert Formulardaten in einer CSV-Datei und senden diese per Mail. ",
+        "emConf": {
+            "category": "services",
+            "custom_category": "",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": true,
+            "sourceLanguage": "en",
+            "state": "stable",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "csvfinisher",
+        "name": "CSV - Finisher",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "netzweber gmbh",
+                "email": "martin@giesen-webentwicklung.de",
+                "name": "Martin Giesen",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "Netzweber"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2019-09-16 04:49",
+        "extension_builder_version": "9.10.0",
+        "be_user": " (14)"
+    }
+}
